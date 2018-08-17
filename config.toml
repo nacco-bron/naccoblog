@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseURL = "https://naccoblog.firebaseapp.com/"
+languageCode = "ja-JP"
 title = "My New Hugo Site"
 theme = "ananke"
