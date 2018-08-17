@@ -6,9 +6,14 @@ jobs:
     working_directory: ~/project
     steps:
       - checkout
+      - run: 
+          command: | 
+            git submodule sync
+            git submodule update --init
+          name: "checkout submodule"
       - run:
-          name: "Run Hugo"
           command: hugo -t ananke
+          name: "Run Hugo"
       - deploy:
           branch: master
           command: firebase deploy --token "$FIREBASE_TOKEN"
