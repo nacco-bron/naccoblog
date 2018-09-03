@@ -1,8 +1,7 @@
 ---
 title: "My First Post"
-date: 2018-08-26T02:44:13+09:00
+date: 2018-08-26
 draft: false
-
 ---
 タイトル
 ===

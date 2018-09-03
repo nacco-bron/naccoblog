@@ -120,7 +120,7 @@ series = "series"
 tag = "tags"
 
 [permalinks]
-page = "/:slug/"
+  post = "/:year/:month/:title/"
 
 [[menu.main]]
     name = "Home"
