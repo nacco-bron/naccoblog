@@ -4,33 +4,4 @@
   {{ partial "entry/meta/author" . }}
   {{ partial "entry/meta/reading-time" . }}
 </div>
-
-
-<div id="sharing">
-    シェアする :
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | safeJS }}" class="facebook" aria-label="share on Facebook">
-      {{ partial "svg/icons" "facebook" }}
-    </a>
-   
-    <a href="http://twitter.com/intent/tweet?text={{ .Title | safeJS }}%20%7C%20{{ .Site.Title }}%20{{ .Permalink | safeJS }}%20%40{{ .Site.Params.twitter }}" class="twitter" aria-label="share on Twitter">
-      {{ partial "svg/icons" "twitter" }}
-    </a>
-
-    <a href="http://b.hatena.ne.jp/entry/{{ .Permalink | safeJS }}" class="twitter" aria-label="share on Hatena Bookmark">
-      {{ partial "svg/custom-icons" "hatebu" }}
-    </a>
-
-    <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink | safeJS }}" class="twitter" aria-label="share on Line">
-      {{ partial "svg/custom-icons" "line" }}
-    </a>
-
-    <a href="https://getpocket.com/save" class="pocket-btn" data-lang="en" data-save-url="{{ .Permalink | safeJS }}" class="twitter" aria-label="save to Pocket">
-      {{ partial "svg/custom-icons" "pocket" }}
-    </a>
-
-    <a href="https://feedly.com/i/subscription/feed/{{ .Permalink | safeJS }}" class="twitter" aria-label="share on Feedly">
-      {{ partial "svg/custom-icons" "feedly" }}
-    </a>
-
-  </div>
 {{ end }}
