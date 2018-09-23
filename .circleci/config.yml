@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: jnyo/docker-hugo-firebase:latest
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run: 
+          command: | 
+            git submodule sync
+            git submodule update --init
+          name: "checkout submodule"
+      - run:
+          command: hugo -t ananke
+          name: "Run Hugo"
+      - deploy:
+          branch: master
+          command: firebase deploy --token "$FIREBASE_TOKEN"
