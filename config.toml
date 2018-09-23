@@ -1,6 +1,6 @@
 baseURL = "https://naccoblog.firebaseapp.com/"
 languageCode = "ja"
-title = "なっころぐ"
+title = "なっころぐ。"
 # add theme 
 theme = "minimo"
 
@@ -8,9 +8,9 @@ theme = "minimo"
 copyright = ""
 
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-126305998-1"
 
-Paginate = 5
+Paginate = 10
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt
@@ -21,19 +21,19 @@ pygmentsCodefences = true
 enableEmoji = true
 
 # Missing translations will default to this content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "ja"
 
 ##### theme minimo params #####
 
 [params.info]
-description = "Naccoの技術ブログですん。"
+description = "Naccoの技術ブログですん"
 title404 = "Nothing's here!"
 
 [params.assets]
 favicon = "favicon.ico"
 customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+gopher = "/images/gopher.png" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
@@ -58,7 +58,7 @@ enable = true
 
 [params.widgets]
 homepage = ["recent_posts"]
-sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
+sidebar = ["about","sidebar_menu","taxonomy_cloud"]
 footer = ["social_menu"]
 
 [params.opengraph.facebook]
@@ -106,12 +106,12 @@ username = "MunifTanjim"
 repository = "minimo"
 
 [params.search]
-client = "" # algolia / fuse / lunr
+#client = "" # algolia / fuse / lunr
 
 [params.search.algolia]
-appId = ""
-indexName = ""
-searchApiKey = ""
+#appId = ""
+#indexName = ""
+#searchApiKey = ""
 
 [taxonomies]
 author = "authors"
@@ -120,7 +120,7 @@ series = "series"
 tag = "tags"
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:year/:month/:slug/"
 
 [[menu.main]]
     name = "Home"
@@ -143,7 +143,12 @@ hrefTargetBlank = true
 
 [languages]
 # edit this block for your own language
+[languages.ja]
+lang = "ja"
+languageName = "Japanese"
+weight = 1
+
 [languages.en]
 lang = "en"
 languageName = "English"
-weight = 1
+weight = 2
