@@ -18,7 +18,7 @@
       {{ partial "svg/icons" "facebook" }}
     </a>
    
-    <a href="http://twitter.com/intent/tweet?text={{ .Title | safeJS }}%20%7C%20{{ .Site.Title }}%20{{ .Permalink | safeJS }}%20%40{{ .Site.Params.twitter }}" class="twitter" aria-label="share on Twitter">
+    <a href="http://twitter.com/intent/tweet?text={{ .Title | safeJS }}%20%7C%20{{ .Site.Title }}%20{{ .Permalink | safeJS }}%20%40{{ .Site.Params.social.twitter }}" class="twitter" aria-label="share on Twitter">
       {{ partial "svg/icons" "twitter" }}
     </a>
 
@@ -30,10 +30,10 @@
       {{ partial "svg/custom-icons" "line" }}
     </a>
 
-    <a href="https://getpocket.com/save" class="pocket-btn" data-lang="en" data-save-url="{{ .Permalink | safeJS }}" class="twitter" aria-label="save to Pocket">
+    <a href="http://getpocket.com/edit?url={{ .Permalink | safeJS }}&title={{ .Title | safeJS }}%20%7C%20{{ .Site.Title }}" class="twitter" aria-label="save to Pocket" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;">
       {{ partial "svg/custom-icons" "pocket" }}
     </a>
-
+    
     <a href="https://feedly.com/i/subscription/feed/{{ .Permalink | safeJS }}" class="twitter" aria-label="share on Feedly">
       {{ partial "svg/custom-icons" "feedly" }}
     </a>
