@@ -58,7 +58,7 @@ enable = true
 
 [params.widgets]
 homepage = ["recent_posts"]
-sidebar = ["about","sidebar_menu","taxonomy_cloud"]
+sidebar = ["about","sidebar_menu","taxonomy_cloud","social_menu"]
 footer = ["social_menu"]
 
 [params.opengraph.facebook]
@@ -120,7 +120,7 @@ series = "series"
 tag = "tags"
 
 [permalinks]
-  post = "/:year/:month/:slug/"
+  post = "/:slug/"
 
 [[menu.main]]
     name = "Home"
@@ -129,7 +129,7 @@ tag = "tags"
  
 [[menu.main]]
     name = "Tags"
-    url = "tags"
+    url = "/tags"
     weight = 2
 
 [[menu.main]]
