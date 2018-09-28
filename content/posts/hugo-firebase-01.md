@@ -15,7 +15,7 @@ tags:
 - Static Site Generator
 - Static Hosting
 draft: false
-cover: /images/hugo-firebase-00.png
+cover: /images/hugo-firebase-00/hugo-firebase-00.png
 ---
 
 こんにちは！[Nacco](https://twitter.com/climbing_nacco)です ( ･`ω･´)
@@ -27,21 +27,21 @@ cover: /images/hugo-firebase-00.png
 ---
 
 - **0章 ブログのシステム構成について**
-    - 0章のねらい、システム構成について
+    - [0章のねらい、システム構成について](../hugo-firebase-00)
     - **静的サイトジェネレータについて**
-    - 静的ホスティングについて
-    - 変更管理ツールについて
-    - 実行ツールについて、0章まとめ
-- 1章 Hugoで生成したHTMLをローカル環境にデプロイ、表示
-- 2章 Hugoで生成したHTMLをFirebase Hostingに手動デプロイ
-- 3章 Hugoで生成したHTMLをGitHubとCircleCIを使ってFirebase Hostingに自動デプロイ
+    - [静的ホスティングについて](../hugo-firebase-02)
+    - [変更管理ツールについて](../hugo-firebase-03)
+    - [実行ツールについて、0章まとめ](../hugo-firebase-04)
+- [1章 Hugoで生成した静的サイトをローカル環境でプレビュー](../hugo-firebase-10)
+- 2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ
+- 3章 Hugoで生成した静的サイトをGitHubとCircleCIを使ってFirebase Hostingに自動デプロイ
 - 4章 テーマ選び、記事テンプレ作り
 
 ---
 ## 0章 ブログのシステム構成について
 
 ### 静的サイトジェネレータについて
-{{< figure src="/images/static-site-generator.png" alt="静的サイトジェネレータとは？" >}}
+{{< figure src="/images/hugo-firebase-00/static-site-generator.png" alt="静的サイトジェネレータとは？" >}}
 
 #### 静的サイトジェネレータ is 何？
 
@@ -103,7 +103,7 @@ cover: /images/hugo-firebase-00.png
 
 
 #### 静的サイトジェネレータの種類
-{{< figure src="/images/ssg-logos.png" alt="静的サイトジェネレータの種類" >}}
+{{< figure src="/images/hugo-firebase-00/ssg-logos.png" alt="静的サイトジェネレータの種類" >}}
 
 先ほどあげた、ジェネレータの実装言語、テンプレートのフレームワーク、特徴などを一覧にしました。
 
@@ -129,3 +129,5 @@ HugoやJekyllはテンプレートテーマが充実していて、ブログ以�
 0章では、各ツールを順番に役割、種類などを紹介していきます！
 
 次回：[静的ホスティングについて≫](../hugo-firebase-02)
+
+もし記事の内容でわからないところがあったら、★[質問箱](https://peing.net/ja/climbing_nacco?event=0)★に質問をください！Twitterで回答できるかはわかりませんが、このブログの記事かインフラ勉強会での発表の糧にさせていただきます。

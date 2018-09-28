@@ -15,7 +15,7 @@ tags:
 - Static Site Generator
 - Static Hosting
 draft: false
-cover: /images/hugo-firebase-00.png
+cover: /images/hugo-firebase-00/hugo-firebase-00.png
 ---
 
 こんにちは！[Nacco](https://twitter.com/climbing_nacco)です(｀･∀･´)ﾉ
@@ -27,21 +27,21 @@ cover: /images/hugo-firebase-00.png
 ---
 
 - **0章 ブログのシステム構成について**
-    - 0章のねらい、システム構成について
-    - 静的サイトジェネレータについて
-    - 静的ホスティングについて
-    - 変更管理ツールについて
+    - [0章のねらい、システム構成について](../hugo-firebase-00)
+    - [静的サイトジェネレータについて](../hugo-firebase-01)
+    - [静的ホスティングについて](../hugo-firebase-02)
+    - [変更管理ツールについて](../hugo-firebase-03)
     - **実行ツールについて、0章まとめ**
-- 1章 Hugoで生成したHTMLをローカル環境にデプロイ、表示
-- 2章 Hugoで生成したHTMLをFirebase Hostingに手動デプロイ
-- 3章 Hugoで生成したHTMLをGitHubとCircleCIを使ってFirebase Hostingに自動デプロイ
+- [1章 Hugoで生成した静的サイトをローカル環境でプレビュー](../hugo-firebase-10)
+- 2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ
+- 3章 Hugoで生成した静的サイトをGitHubとCircleCIを使ってFirebase Hostingに自動デプロイ
 - 4章 テーマ選び、記事テンプレ作り
 
 ---
 ## 0章 ブログのシステム構成について
 
 ### 実行ツールについて
-{{< figure src="/images/citools-logos.png" alt="実行ツールについて" >}}
+{{< figure src="/images/hugo-firebase-00/citools-logos.png" alt="実行ツールについて" >}}
 
 | 種類                                                      | 特徴                                                                                                                                                                               |
 | :-------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,18 +63,18 @@ Dockerなどの**コンテナを使ってビルドやデプロイを実行する
 
 Cloud Buildだけ使い勝手が少し違うようなので、余裕が出たら触ってみたいです。
 
-今回CircleCI設定の際に、**ローカルとリモートでの実行結果の差異が発生するトラブル**が起きたので、技術習得のキモになるところでした！
+今回CircleCI設定の際に、**ローカルとリモートでの実行結果の差異が発生するトラブル**が起きてトラシュー作業が大変勉強になりました！
 
 トラシューの内容は、3章に書く予定です！
 
 ### 0章のまとめと初投稿の反省。
-{{< figure src="/images/ending-00.png" alt="まとめと初投稿の反省。" >}}
+{{< figure src="/images/hugo-firebase-00/ending-00.png" alt="まとめと初投稿の反省。" >}}
 
 以上、0章ではブログ自動デプロイのシステム構成と構成要素となった各ツールの役割、種類を紹介しました！
 実際の構築手順は次回1章から書いていきます。
 
 単純に「ブログを書きたい」「記事をシェアしたい」だけならば、はてなブログなど無料ブログサービスも選択肢として十分アリです。(というかそちらが王道ですね。)
-調べていく中で「モバイル環境でもストレスがないこと」「コードで管理すること」「自動化しやすいこと」が静的サイトジェネレータで構築するWEBシステムには集結されていて、技術トレンドを知る上で、やって良かった！と思うところです。
+調べていく中で「モバイル環境でもストレスがないこと」「コードで管理すること」「自動化しやすいこと」が静的サイトジェネレータで構築するWEBシステムには集結していて、技術トレンドを知る上で、やって良かった！と思うところです。
 
 ここからは反省点。
 
@@ -87,7 +87,9 @@ Cloud Buildだけ使い勝手が少し違うようなので、余裕が出たら
 最後までお付き合いいただき、ありがとうございました！
 
 ～静的サイトジェネレータでブログをたててみたシリーズ～
-次回は、**1章 Hugoで生成したHTMLをローカル環境にデプロイ、表示**です！
+次回は、**1章 Hugoで生成した静的サイトをローカル環境にデプロイ、表示**です！
+
+もし記事の内容でわからないところがあったら、★[質問箱](https://peing.net/ja/climbing_nacco?event=0)★に質問をください！Twitterで回答できるかはわかりませんが、このブログの記事かインフラ勉強会での発表の糧にさせていただきます。
 
 
 ### 参考資料
@@ -99,6 +101,7 @@ Cloud Buildだけ使い勝手が少し違うようなので、余裕が出たら
 - [Now + GitHub: Push to Deploy, Master Aliasing, Instant Rollbacks](https://zeit.co/blog/every-push-now)
 - [人気CIツール比較まとめ【2015年12月版】](https://qiita.com/hiro_koba_jp/items/282e3b2e534f4bc22d64)
 - [How to host Hugo static website generator on AWS Lambda](http://bezdelev.com/post/hugo-aws-lambda-static-website/)
+- [S3/CloudFront/Route53/ACM構成の静的サイトをTerraformで構築 & CircleCIで自動デプロイ](https://tech.lucheholdings.com/entry/2018/09/25/220855)
 - [継続的デリバリー ツールの統合](https://cloud.google.com/container-registry/docs/continuous-delivery?hl=ja)
 - [エンジニアリングブログのCI環境をCodePipeline・CodeBuildに移行しました。](https://blog.mwed.info/posts/change_ci.html)
 - [Google Cloud Buildとは一体何者なのか](https://swet.dena.com/entry/2018/08/20/170836)

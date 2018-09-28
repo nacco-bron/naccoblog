@@ -1,13 +1,13 @@
 ---
-title: "My First Post"
-date: 2018-08-16T00:34:34+09:00
+date: "2018-09-26T02:44:13+09:00"
+title: "My First Post | My New Hugo Site "
+authors: []
+categories:
+  - Tech
+tags:
+  - Hello World!
 draft: true
 ---
-タイトル
-===
-# テストです。
 
-- aaaa
-- aaaa
-- aaaa
-- aaaa
+Hello World!
+テスト投稿です。

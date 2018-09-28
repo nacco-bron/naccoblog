@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: ""
 slug: "{{ .Name }}"
 authors: ["nacco"]
@@ -45,11 +44,3 @@ cover: /images/.png
 ### まとめ
 
 ### 参考資料
-
-=======
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
----
-
->>>>>>> origin/master
