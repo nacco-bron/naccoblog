@@ -118,10 +118,10 @@ choco feature enable -n allowGlobalConfirmation
 Do you want to run the script?([Y]es/[N]o/[P]rint):Y
 
 ```
-**最新版**※2のダウンロードとインストールがはじまります。
+**Hugoの 最新版**※2のダウンロードとインストールがはじまります。
 
 {{% text s="0.8" color="#7058a3" %}}
-**※2** あとで実行ツール(CircleCI)のコンテナ上でHugoをビルドして使う時は**Hugoのバージョンを固定**するようなDockerfileを使いたいと思います。
+**※2** あとで実行ツール(CircleCI)のコンテナ上でHugoをインストールして使う時は**Hugoのバージョンを固定**するようなDockerfileを使いたいと思います。
 {{% /text %}}
 
 ```

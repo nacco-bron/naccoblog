@@ -48,7 +48,12 @@ cover: /images/hugo-firebase-10/hugo-firebase-10.png
 
 ##### Hugoプロジェクトの初期化
 
-PowerShell(もしくはコマンドプロンプト)で`C:\Hugo`に移動
+PowerShell(もしくはコマンドプロンプト※1)で`C:\Hugo`に移動
+
+{{% text s="0.8" color="#7058a3" %}}
+**※1** ターミナルソフトはお好みのものを使ってください。ファイル、ディレクトリ操作やgitコマンドが使えれば何でも良いです。ただし、WSL(Windows Subsystem for Linux)でやる場合はLinux環境でのgitやhugoのセットアップ手順になるので、このブログには書いてないです！
+{{% /text %}}
+
 
 `hugo new site`コマンド実行します。
 
