@@ -1,5 +1,5 @@
 ---
-title: "Hugo+Firebase+GitHub+CircleCIでブログ作る-03"
+title: "Hugo+Firebase+GitHub+CircleCIでブログ作る-0_3"
 slug: "hugo-firebase-03"
 authors: ["nacco"]
 date: "2018-09-22"
