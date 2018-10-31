@@ -2,17 +2,12 @@ version: 2
 jobs:
   build:
     docker:
-      - image: jnyo/docker-hugo-firebase:latest
+      - image: naccobron/hugo-for-firebase:latest
     working_directory: ~/project
     steps:
       - checkout
-      - run: 
-          command: | 
-            git submodule sync
-            git submodule update --init
-          name: "checkout submodule"
       - run:
-          command: hugo -t ananke
+          command: hugo
           name: "Run Hugo"
       - deploy:
           branch: master
