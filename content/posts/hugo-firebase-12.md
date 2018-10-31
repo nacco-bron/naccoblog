@@ -9,11 +9,9 @@ categories:
 - Tech
 tags:
 - Hugo
-- Firebase Hosting
+- Firebase
 - GitHub
 - CircleCI
-- Static Site Generator
-- Static Hosting
 draft: false
 cover: /images/hugo-firebase-10/hugo-firebase-10.png
 ---
@@ -162,12 +160,14 @@ Hugoサーバ(リアルタイムなビルド、プレビュー)があるので�
 
 さて、次の章ではいよいよ静的ホスティングにデプロイしていきます！
 
-次回：**2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ**(Comming Soon…)
+次回：2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ
 
 もし記事の内容でわからないところがあったら、★[質問箱](https://peing.net/ja/climbing_nacco?event=0)★に質問をください！Twitterで回答できるかはわかりませんが、このブログの記事かインフラ勉強会での発表の糧にさせていただきます。
 
 ### 参考資料
 - [Git for Windows導入方法＆初期設定まとめ](http://vdeep.net/git-for-windows)
+- [気をつけて！Git for Windowsにおける改行コード](https://qiita.com/uggds/items/00a1974ec4f115616580)
+- [わかばちゃんと学ぶ Git使い方入門/湊川あい](http://amzn.asia/d/bnr4b23)
 - [Installing Chocolatey](https://chocolatey.org/install#install-with-powershellexe)
 - [Install Hugo | Hugo](https://gohugo.io/getting-started/installing)
 - [Installing Hugo on Windows | Hugo(YouTube)](https://youtu.be/G7umPCU-8xc)
@@ -177,4 +177,3 @@ Hugoサーバ(リアルタイムなビルド、プレビュー)があるので�
 - [Go言語製のWebサイトエンジンHugoの機能整理 - Front Matter](http://tbpgr.hatenablog.com/entry/2015/08/12/224727)
 - [日時のフォーマット（ISO 8601）](https://qiita.com/kidatti/items/272eb962b5e6025fc51e)
 - [Howto: Standardize Date Format in HTML Attributes](https://discourse.gohugo.io/t/howto-standardize-date-format-in-html-attributes/758)
-- [わかばちゃんと学ぶ Git使い方入門/湊川あい](http://amzn.asia/d/bnr4b23)

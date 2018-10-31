@@ -9,11 +9,9 @@ categories:
 - Tech
 tags:
 - Hugo
-- Firebase Hosting
+- Firebase
 - GitHub
 - CircleCI
-- Static Site Generator
-- Static Hosting
 draft: false
 cover: /images/hugo-firebase-10/hugo-firebase-10.png
 ---

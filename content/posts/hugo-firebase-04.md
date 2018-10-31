@@ -9,11 +9,9 @@ categories:
 - Tech
 tags:
 - Hugo
-- Firebase Hosting
+- Firebase
 - GitHub
 - CircleCI
-- Static Site Generator
-- Static Hosting
 draft: false
 cover: /images/hugo-firebase-00/hugo-firebase-00.png
 ---
@@ -86,8 +84,9 @@ Cloud Buildだけ使い勝手が少し違うようなので、余裕が出たら
 もう少し軽快に記事書いていけるように「HackMDのテンプレを作った話」もまたの機会に記事にします！
 最後までお付き合いいただき、ありがとうございました！
 
-～静的サイトジェネレータでブログをたててみたシリーズ～
-次回は、**1章 Hugoで生成した静的サイトをローカル環境にデプロイ、表示**です！
+～Hugo+Firebase+GitHub+CircleCIでブログ作るシリーズ～
+
+次回:[1章 Hugoで生成した静的サイトをローカル環境でプレビュー](../hugo-firebase-10)
 
 もし記事の内容でわからないところがあったら、★[質問箱](https://peing.net/ja/climbing_nacco?event=0)★に質問をください！Twitterで回答できるかはわかりませんが、このブログの記事かインフラ勉強会での発表の糧にさせていただきます。
 
