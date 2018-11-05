@@ -78,7 +78,7 @@ Cloud Buildだけ使い勝手が少し違うようなので、余裕が出たら
 
 実は、3章までの**構築作業自体は3時間弱ほどで完了**しています。
 
-私がAdminをやっているオンラインコミュニティ「[インフラ勉強会](https://wp.infra-workshop.tech/)」で構築作業のナビゲータをやってくださった方がいたので短時間で構築できましたが、
+オンライン勉強会コミュニティで構築作業のナビゲータをやってくださった方がいたので短時間で構築できましたが、
 記事執筆については全然捗らず…**0章だけで40時間は使っています**(´・ω・`;)
 
 もう少し軽快に記事書いていけるように「HackMDのテンプレを作った話」もまたの機会に記事にします！
@@ -88,8 +88,7 @@ Cloud Buildだけ使い勝手が少し違うようなので、余裕が出たら
 
 次回:[1章 Hugoで生成した静的サイトをローカル環境でプレビュー](../hugo-firebase-10)
 
-もし記事の内容でわからないところがあったら、★[質問箱](https://peing.net/ja/climbing_nacco?event=0)★に質問をください！Twitterで回答できるかはわかりませんが、このブログの記事かインフラ勉強会での発表の糧にさせていただきます。
-
+もし記事の内容でわからないところがあったら、★[質問箱](https://peing.net/ja/climbing_nacco?event=0)★に質問をください！Twitterで回答できるかはわかりませんが、このブログの記事か発表の糧にさせていただきます。
 
 ### 参考資料
 - [静的サイトジェネレーター比較「StaticGen」](https://www.staticgen.com/)
@@ -105,8 +104,7 @@ Cloud Buildだけ使い勝手が少し違うようなので、余裕が出たら
 - [エンジニアリングブログのCI環境をCodePipeline・CodeBuildに移行しました。](https://blog.mwed.info/posts/change_ci.html)
 - [Google Cloud Buildとは一体何者なのか](https://swet.dena.com/entry/2018/08/20/170836)
 
-### インフラ勉強会 関連
-- [20180317-無料でサーバーレス＆自動化！？ブログを簡単にgoogle-firebase-hostingにデプロイするよー](https://discord.gg/s8ctA2)(indoctorさん:インフラ勉強会内セッション)
+### 勉強会 関連
 - [HugoのサイトをCircle CIを使ってFirebaseにデプロイする](https://github.com/inductor/inductor.me)(indoctorさん:Hugoリポジトリ)
 - [inductor/hugo-firebase-tools](https://github.com/inductor/hugo-firebase-tools/blob/master/Dockerfile)(indoctorさん:FirebaseCLI込みHugoビルドツール)
 - [Firebase Hostingにブログを移行した](https://blog.haramishio.xyz/entry/migrate-firebase-hosting)(Morixさん:個人ブログ記事)

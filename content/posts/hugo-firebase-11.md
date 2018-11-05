@@ -187,4 +187,4 @@ C:\Hugo\naccoblog>git commit -m "set config theme minimo"
 
 次回：[コンテンツの作成、ローカルでプレビュー、1章まとめ≫](../hugo-firebase-12)
 
-もし記事の内容でわからないところがあったら、★[質問箱](https://peing.net/ja/climbing_nacco?event=0)★に質問をください！Twitterで回答できるかはわかりませんが、このブログの記事かインフラ勉強会での発表の糧にさせていただきます。
+もし記事の内容でわからないところがあったら、★[質問箱](https://peing.net/ja/climbing_nacco?event=0)★に質問をください！Twitterで回答できるかはわかりませんが、このブログの記事か発表の糧にさせていただきます。

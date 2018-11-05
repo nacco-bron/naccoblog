@@ -77,7 +77,7 @@ cover: /images/hugo-firebase-00/hugo-firebase-00.png
     - Markdown記法を使用できる**プレゼンテーションツール**を使ってプレゼン資料として流用もできる
         - GitHubと相性の良い[GitPitch](https://gitpitch.com/docs/getting-started/tutorial/)などのプレゼンテーションツール
 
-個人的に、最後にあげたMarkdown記法ツールの展開がうれしいです。例えば、この記事の内容をそのまま[インフラ勉強会](https://wp.infra-workshop.tech/)での発表に使えないかなと思ってます！
+個人的に、最後にあげたMarkdown記法ツールの展開がうれしいです。例えば、この記事の内容をそのまま発表スライドに使えないかなと思ってます！
 
 
 {{% text s="0.8" color="#7058a3" %}}
@@ -128,4 +128,4 @@ HugoやJekyllはテンプレートテーマが充実していて、ブログ以�
 
 次回：[静的ホスティングについて≫](../hugo-firebase-02)
 
-もし記事の内容でわからないところがあったら、★[質問箱](https://peing.net/ja/climbing_nacco?event=0)★に質問をください！Twitterで回答できるかはわかりませんが、このブログの記事かインフラ勉強会での発表の糧にさせていただきます。
+もし記事の内容でわからないところがあったら、★[質問箱](https://peing.net/ja/climbing_nacco?event=0)★に質問をください！Twitterで回答できるかはわかりませんが、このブログの記事か発表の糧にさせていただきます。
