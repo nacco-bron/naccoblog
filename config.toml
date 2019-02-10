@@ -118,6 +118,7 @@ author = "authors"
 category = "categories"
 series = "series"
 tag = "tags"
+count = "count"
 
 [permalinks]
   post = "/:slug/"
@@ -143,6 +144,7 @@ hrefTargetBlank = true
 
 [languages]
 # edit this block for your own language
+
 [languages.ja]
 lang = "ja"
 languageName = "Japanese"
