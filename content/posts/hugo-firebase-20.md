@@ -150,7 +150,7 @@ Before we get started, keep in mind:
 続行するか聞かれるので「Y」(はい)と入力してください。
 
 どのサービスの設定をするかを選びます。
-ここでは「Hosting」を選択します(↓キーで移動、スペースキーで選択)
+ここでは「Hosting」を選択します(↓キーで移動、スペースキーで選択、Enterキーで決定)
 ```
 ? Which Firebase CLI features do you want to set up for this folder? Press Spac
 e to select features, then Enter to confirm your choices. (Press <space> to sel
@@ -162,7 +162,7 @@ ect)
  ( ) Storage: Deploy Cloud Storage security rules
 ```
 
-Firebase CLIで連携するFirebaseプロジェクトを選択します。
+連携するFirebaseプロジェクトを選択します。
 
 [Firebaseの管理パネル](https://console.firebase.google.com)で作成したプロジェクト名を選択します。(↓キーで移動、Enterキーで選択)
 ```
