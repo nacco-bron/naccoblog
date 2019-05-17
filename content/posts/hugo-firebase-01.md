@@ -25,13 +25,13 @@ cover: /images/hugo-firebase-00/hugo-firebase-00.png
 ---
 
 - **0章 ブログのシステム構成について**
-    - [0章のねらい、システム構成について](../hugo-firebase-00)
+    - [ブログのシステム構成につい](../hugo-firebase-00)
     - **静的サイトジェネレータについて**
     - [静的ホスティングについて](../hugo-firebase-02)
     - [変更管理ツールについて](../hugo-firebase-03)
     - [実行ツールについて、0章まとめ](../hugo-firebase-04)
 - [1章 Hugoで生成した静的サイトをローカル環境でプレビュー](../hugo-firebase-10)
-- 2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ
+- [2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ](../hugo-firebase-20)
 - 3章 Hugoで生成した静的サイトをGitHubとCircleCIを使ってFirebase Hostingに自動デプロイ
 - 4章 テーマ選び、記事テンプレ作り
 
@@ -116,12 +116,12 @@ cover: /images/hugo-firebase-00/hugo-firebase-00.png
 | **[GitBook](https://www.gitbook.com/)** ([demo](https://docs.gitbook.com/))                | JavaScript | [Jinja2](http://jinja.pocoo.org/docs/2.10/) | ドキュメントサイトを生成できる。                 |
 
 今回は[Hugo](https://gohugo.io/)を選択しました。
-理由は、「**とにかく爆速だ**」と噂があったことと、これからgolangのプログラミングを勉強するにあたって、[golangで実装している](https://github.com/gohugoio/hugo)静的サイトジェネレータとして興味がありました。
+理由は、「**とにかく速い**」と噂があったことと、[golangで実装している](https://github.com/gohugoio/hugo)静的サイトジェネレータとして興味がありました。
 
-詳しい比較は[StaticGen](https://www.staticgen.com/)がまとまっています。Gatsby、Next.js、Nuxt.jsを理解するには**[JAMstack](https://jamstack.org/)**関連の知識が必要だと思ったので、宿題にします。シングルページアプリケーション(SPA)を作っていくなら、js系のジェネレータを触っていくのも良いかと思います。
+詳しい比較は[StaticGen](https://www.staticgen.com/)がまとまっています。シングルページアプリケーション(SPA)を作っていくなら、js系のジェネレータを触っていくのも良いかと思います。
 
 Expose、GitBookは用途特化のジェネレータです。
-HugoやJekyllはテンプレートテーマが充実していて、ブログ以外の用途にも使いやすい印象です。
+HugoやJekyllはテンプレートテーマが充実していて、ブログ用途に使いやすい印象です。
  
 ブログ自動デプロイのシステム構成について、「静的サイトジェネレータ」について紹介しました！
 0章では、各ツールを順番に役割、種類などを紹介していきます！

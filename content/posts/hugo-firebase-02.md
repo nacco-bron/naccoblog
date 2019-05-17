@@ -31,7 +31,7 @@ cover: /images/hugo-firebase-00/hugo-firebase-00.png
     - [変更管理ツールについて](../hugo-firebase-03)
     - [実行ツールについて、0章まとめ](../hugo-firebase-04)
 - [1章 Hugoで生成した静的サイトをローカル環境でプレビュー](../hugo-firebase-10)
-- 2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ
+- [2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ](../hugo-firebase-20)
 - 3章 Hugoで生成した静的サイトをGitHubとCircleCIを使ってFirebase Hostingに自動デプロイ
 - 4章 テーマ選び、記事テンプレ作り
 
@@ -47,7 +47,7 @@ cover: /images/hugo-firebase-00/hugo-firebase-00.png
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[Now](https://zeit.co/now)**                                                                                                                                                    | デプロイの統合CLI環境。「now」の3文字コマンドで手動デプロイ。[GitHub App](https://github.com/apps/now)をGitHubリポジトリにインストールすると、masterブランチにgit pushするごとにNowに自動デプロイできる。mergeのpull requestの承認でもデプロイ可。revertでロールバックもできる。すごい！ |
 | **[Firebase Hosting](https://firebase.google.com/docs/hosting/?hl=ja)**                                                                                                           | CLIで簡単にinit/deployできる。モバイル向けBackend(MBaaS)を提供するFirebaseの一機能。                                                                                                                                                                                                     |
-| **[AWS S3](https://aws.amazon.com/jp/s3/)**                                                                                                                                       | WEBサイトホスティング用に設定して利用可能な[クラウドオブジェクトストレージ](https://aws.amazon.com/jp/what-is-cloud-object-storage/)。WAFを作成してCloudFrontに適用など、AWSはとにかくサービスが多彩なので連携して利用できる。                                                           |
+| **[AWS S3](https://aws.amazon.com/jp/s3/)**                                                                                                                                       | WEBサイトホスティング用に設定して利用可能な[クラウドオブジェクトストレージ](https://aws.amazon.com/jp/what-is-cloud-object-storage/)。WAFを作成してCloudFrontに適用など、AWSはサービスが多彩なので連携して利用できる。                                                           |
 | **[Netlify](https://www.netlify.com/)**                                                                                                                                           | 静的ホスティング専用サービス。ドラッグ＆ドロップでのデプロイやCLI操作も可能。GitHubなどのGitリポジトリと連携。HTTP/2による配信に対応。                                                                                                                                                   |
 | **[GitHub Pages](https://pages.github.com/)**                                                                                                                                     | gh-pagesブランチを作成し、git pushすることでデプロイ。変更管理ツール、実行ツールを包括。                                                                                                                                                                                                 |
 | **[GitLab Pages](https://about.gitlab.com/features/pages/)**                                                                                                                      | GitHub Pagesと同様のサービス。プライベートリポジトリも無料で作成できる！                                                                                                                                                                                                                 |
@@ -55,7 +55,7 @@ cover: /images/hugo-firebase-00/hugo-firebase-00.png
 
 **Netlify**はビルドインされている静的サイトジェネレータが多数あり、ボタンひとつでGitHubリポジトリを作成、サイトを構築できます。**Firebase Hosting**や**AWS S3**は多機能なマネージドサービスの一機能として静的ホスティングを提供しています。
 
-**Now**、**Netlify**、**GitHub Pages**、**GitLab Pages**はgit pushをトリガーにして自動デプロイができるので、今回のシステム構成のステップをいくつか省略できます！
+**Now**、**Netlify**、**GitHub Pages**、**GitLab Pages**はgit pushをトリガーにして自動デプロイができるので、今回のシステム構成のステップをいくつか省略できますよ！
 
 今回はステップごとにツールを把握したかったので、ホスティングサービス単体で[Firebase Hosting](https://firebase.google.com/docs/hosting/?hl=ja)を選択しました。
 シングルページアプリケーション(SPA)の開発に興味があってFirebaseを選びましたが、静的サイトジェネレータを利用する場合、コンテンツの移行が容易なので、料金形態や使用感で引っ越しも検討します。

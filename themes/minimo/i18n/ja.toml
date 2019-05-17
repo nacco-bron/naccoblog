@@ -1,9 +1,9 @@
 [author]
-one = "Author"
-other = "Authors"
+one = "投稿者"
+other = "投稿者"
 
 [authorsAvatar]
-other = "{{ .Author }}'s avatar"
+other = "{{ .Author }} のアバター"
 
 [by]
 other = "by"
@@ -65,13 +65,13 @@ other = "Main Menu"
 other = "Name"
 
 [next]
-other = "Next"
+other = "次へ"
 
 [nextPage]
-other = "Next page"
+other = "次のページ"
 
 [nextPost]
-other = "Next post"
+other = "次の記事"
 
 [noTerm]
 other = "Not a single {{ .Term }}!"
@@ -86,35 +86,35 @@ other = "Open {{ .Platform }} account in new tab"
 other = "Page"
 
 [previous]
-other = "Previous"
+other = "前へ"
 
 [previousPage]
-other = "Previous page"
+other = "前のページ"
 
 [previousPost]
-other = "Previous post"
+other = "前の記事"
 
 [postedOn]
 other = "Posted on"
 
 [readingTime]
-one = "One min read"
-other = "{{ .Count }} mins read"
+one = "1分で読める"
+other = "{{ .Count }} 分で読める"
 
 [recentPosts]
 other = "Recent Posts"
 
 [reply]
-other = "Reply"
+other = "返信"
 
 [replyToAuthor]
-other = "Reply to {{ .Author }}"
+other = "{{ .Author }} への返信"
 
 [says]
-other = "says"
+other = "のコメント"
 
 [search]
-other = "Search"
+other = "検索"
 
 [searchResultEmpty]
 other = "Nothing found!"

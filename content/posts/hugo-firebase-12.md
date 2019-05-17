@@ -29,7 +29,7 @@ cover: /images/hugo-firebase-10/hugo-firebase-10.png
   - [1章で得られること、Hugoのインストール](../hugo-firebase-10)
   - [Hugoプロジェクトの作成、初期化、テーマの設定](../hugo-firebase-11)
   - **コンテンツの作成、ローカルでプレビュー、1章まとめ**
-- 2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ
+- [2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ](../hugo-firebase-20)
 - 3章 Hugoで生成した静的サイトをGitHubとCircleCIを使ってFirebase Hostingに自動デプロイ
 - 4章 テーマ選び、記事テンプレ作り
 

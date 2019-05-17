@@ -31,7 +31,7 @@ cover: /images/hugo-firebase-00/hugo-firebase-00.png
     - [変更管理ツールについて](../hugo-firebase-03)
     - **実行ツールについて、0章まとめ**
 - [1章 Hugoで生成した静的サイトをローカル環境でプレビュー](../hugo-firebase-10)
-- 2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ
+- [2章 Hugoで生成した静的サイトをFirebase Hostingに手動デプロイ](../hugo-firebase-20)
 - 3章 Hugoで生成した静的サイトをGitHubとCircleCIを使ってFirebase Hostingに自動デプロイ
 - 4章 テーマ選び、記事テンプレ作り
 
