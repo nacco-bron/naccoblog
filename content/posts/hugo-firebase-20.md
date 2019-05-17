@@ -103,7 +103,7 @@ C:\Hugo\naccoblog>npm install -g firebase-tools
 
 ### Firebaseプロジェクトにログイン
 
-HugoプロジェクトのディレクトリでFirebase CLIを使ってFirebaseプロジェクトにログインします。
+Hugoプロジェクト(ブログ)のディレクトリでFirebaseプロジェクトにログインします。
 
 コマンドプロンプトから`firebase login`コマンドを実行します。
 ```
@@ -145,10 +145,11 @@ Before we get started, keep in mind:
 
   * You are currently outside your home directory
 
-? Are you ready to proceed? (Y/n)
+? Are you ready to proceed? (Y/n)Y
 ```
+続行するか聞かれるので「Y」(はい)と入力してください。
 
-どのサービスのディレクトリを設定するかを選びます。
+どのサービスの設定をするかを選びます。
 ここでは「Hosting」を選択します(↓キーで移動、スペースキーで選択)
 ```
 ? Which Firebase CLI features do you want to set up for this folder? Press Spac
