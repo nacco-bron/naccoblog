@@ -260,7 +260,7 @@ publicディレクトリ以下にコンテンツのファイル群が生成さ�
 これらを`firebase deploy`コマンドでHostingへアップします。
 
 ```
-C:\Hugo\testblog>firebase deploy
+C:\Hugo\naccoblog>firebase deploy
 
 === Deploying to 'naccoblog'...
 
