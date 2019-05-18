@@ -56,7 +56,7 @@ Firebaseプロジェクトの作成ができると「naccoblog」Project Overvie
 左メニュー 「開発」から**Hosting**を選択し、「開始方法」をクリックすると[手順](https://firebase.google.com/docs/cli/?authuser=0)が表示されるので、それに従ってFirebase CLIのセットアップをします。
 
 {{% text s="0.8" color="#7058a3" %}}
-**※1** [Sparkプラン](https://firebase.google.com/pricing/?authuser=0)はHotingで1GBの保存と月10GBのファイル転送までが無料です。このブログ構築でこれを超えることはありませんが、コンテンツの内容によっては有料になるのでご注意ください！
+**※1** [Sparkプラン](https://firebase.google.com/pricing/?authuser=0)はHotingで1GBの保存と月10GBのファイル転送までが無料です。このブログ構築でこれを超えることはありませんが、コンテンツによっては有料になるのでご注意ください！
 {{% /text %}}
 
 ### Firebase CLIのセットアップ
