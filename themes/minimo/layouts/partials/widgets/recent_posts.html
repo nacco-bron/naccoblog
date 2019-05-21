@@ -18,3 +18,19 @@
   {{ end }}
   </ul>
 </section>
+
+{{ if gt .Paginator.TotalPages 1 }}
+<nav id='pagination'>
+  <div class='page-links'>
+
+    {{ with .Paginator.Next }}
+    <a class='page-link next' href='posts/'>
+        Posts
+      <span class='screen-reader-text'>Posts</span>
+      {{- partial "svg/icons" "next" -}}
+    </a>
+    {{ end }}
+
+  </div>
+</nav>
+{{ end }}
