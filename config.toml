@@ -10,7 +10,7 @@ copyright = ""
 disqusShortname = ""
 googleAnalytics = "UA-126305998-1"
 
-Paginate = 10
+Paginate = 5
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt
@@ -127,15 +127,20 @@ count = "count"
     name = "Home"
     url = "/"
     weight = 1
- 
+
 [[menu.main]]
-    name = "Tags"
-    url = "/tags"
+    name = "Posts "
+    url = "/posts"
     weight = 2
 
 [[menu.main]]
-    name = "Repo"
+    name = "Tags"
+    url = "/tags"
     weight = 3
+
+[[menu.main]]
+    name = "Repo"
+    weight = 4
     identifier = "repository"
     url = "https://github.com/nacco-bron/naccoblog"
  
