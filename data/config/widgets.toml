@@ -6,8 +6,8 @@ logo = "/images/logo.png"             # default: "/images/logo.png"
 
 # Recent Posts Widget config
 [recent_posts]
-title = "書いたの"                            # default: "Recent Posts"
-length = 10                            # default: 5
+title = "Recent Posts"                            # default: "Recent Posts"
+length = 5                            # default: 5
 excludeTypes = ["page"]               # default: ["page"]
 
 # Search Widget config
