@@ -2,7 +2,7 @@
 title: "子の成長とともに変わる自分時間"
 slug: "advent-calendar-oton-okan-2019"
 authors: ["nacco"]
-date: "2019-12-18"
+date: "2019-12-19"
 description: "オトンとオカンの自分時間捻出術 Advent Calendar 2019"
 # Catergory Tech Social Life
 categories:
