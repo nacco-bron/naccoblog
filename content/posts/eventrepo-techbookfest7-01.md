@@ -1,5 +1,5 @@
 ---
-title: "技術書典7に行ってきました_01"
+title: "技術書典7に行ってきました"
 slug: "eventrepo-techbookfest7-01"
 authors: ["nacco"]
 date: "2019-09-23"
