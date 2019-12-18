@@ -18,7 +18,7 @@ cover:
 
 ## この記事について
 
-この.記事は「[オトンとオカンの自分時間捻出術 Advent Calendar 2019](https://adventar.org/calendars/4196)」の19日目のブログです。お誘いいただいた[kusuwada](https://twitter.com/kusuwada)さま、ありがとうございました♪
+この記事は「[オトンとオカンの自分時間捻出術 Advent Calendar 2019](https://adventar.org/calendars/4196)」の19日目のブログです。お誘いいただいた[kusuwada](https://twitter.com/kusuwada)さま、ありがとうございました♪
 
 ## 家族構成
 
@@ -61,7 +61,7 @@ cover:
 
 長男は6歳で小学校入学、次男は5歳になっていました。
 
-## 子どもが5歳頃から寝かしつけ後に
+## 子どもが5歳頃から「寝かしつけ後に」時間捻出
 
 私の体力も戻ってきて、寝かしつけ後に起きて活動することができるようになってきました。
 
@@ -91,7 +91,7 @@ cover:
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「Hands-On Full Stack Development with Spring Boot 2 and React」第5章終わり<br><br>LoginAPIの単体テストを書いた。<br>次は、フロントエンドの開発環境構築✊<a href="https://twitter.com/hashtag/%E3%81%AA%E3%81%A3%E3%81%93%E3%82%82%E3%81%8F%E3%82%82%E3%81%8F%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#なっこもくもくログ</a> <a href="https://t.co/CCGtDmfAUW">pic.twitter.com/CCGtDmfAUW</a></p>&mdash; Nacco🌼なっこ (@climbing_nacco) <a href="https://twitter.com/climbing_nacco/status/1188140412017377280?ref_src=twsrc%5Etfw">October 26, 2019</a></blockquote>
 
-## 子どもが7歳頃から土日に
+## 子どもが7歳頃から「土日に」時間捻出
 
 お留守番ができる(例えば、作り置きのごはんを温めて食べる、室内で過ごすことができる)ようになってから、土日のどちらかで昼間に時間をもらうことができています。
 
